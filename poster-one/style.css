@@ -1,0 +1,49 @@
+body {
+    background-color:aqua; 
+}
+
+div.poster {
+    width:100%;
+}
+
+div.text {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+}
+
+/* rule 1 */
+div.text.one {
+    font-size: 60px;
+    color:deeppink;
+    text-align:right;
+}
+
+div.text.two {
+    font-size: 30px;
+    color: red;
+    text-align:left;
+}
+
+div.text.three {
+    font-size: 100px;
+    color: blue;
+    text-align:center;
+}
+
+div.text.a {
+    -webkit-text-stroke: 3px greenyellow;
+}
+
+div.text.b {
+    -webkit-text-stroke:4px antiquewhite;
+}
+
+div.text.c {
+    -webkit-text-stroke: 2px lightseagreen;
+}
+
+div.small {
+    font-size:20px;
+    text-align:center;
+    color:blue;
+}
