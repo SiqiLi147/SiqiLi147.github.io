@@ -9,7 +9,7 @@ div.poster {
 
 div.text {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 /* rule 1 */
@@ -23,6 +23,8 @@ div.text.two {
     color: black;
 }
 
+/* rule 2 */
+
 div.text.a {
     -webkit-text-stroke: 5px white;
 }
@@ -30,6 +32,8 @@ div.text.a {
 div.text.b {
     -webkit-text-stroke:8px black;
 }
+
+/* rule 3 */
 
 div.text.x {
     text-align:center;
@@ -42,6 +46,8 @@ div.text.y {
 div.text.z {
     text-align:right;
 }
+
+/* rule small */
 
 div.small {
     font-size:20px;
