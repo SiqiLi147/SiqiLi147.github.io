@@ -1,0 +1,86 @@
+body {
+    background-color:black;
+}
+
+div.poster {
+    width:99%;
+    overflow: hidden;
+    background-color:whitesmoke;
+    background-image:url(red-dot.png);
+    margin-left:10px;
+}
+
+div.container {
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:-100px;
+}
+
+div.bl {
+    width:100%;
+    background-color:black;
+}
+
+div.mada {
+    width:100%;
+    background-image:url(MADA.png);
+    background-repeat:repeat;
+    background-size:contain;
+}
+
+div.byob {
+    width:100%;
+    background-image:url(BYOB.png);
+    background-repeat:repeat;
+    background-size:contain;
+}
+
+div.byob1 {
+    width:100%;
+    background-image:url(byob1.png);
+    background-repeat:repeat;
+    background-size:contain;
+    margin-left:100px;
+}
+
+div.date {
+    width:100%;
+    background-image:url(date.png);
+    background-repeat:repeat;
+    background-size:contain;
+}
+
+div.time {
+    width:100%;
+    background-image:url(time.png);
+    background-repeat:repeat;
+    background-size:contain;
+}
+
+div.wape {
+    width:100%;
+    background-image:url(wape.png);
+    background-repeat:repeat;
+    background-size:contain;
+    margin-left:100px;
+}
+
+div.text {
+    transition: 1s;
+    text-align: center;
+    color:transparent;
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size:120px;
+}
+
+div.text.two {
+    font-size:80px;
+}
+
+div.text.three {
+    font-size:40px;
+}

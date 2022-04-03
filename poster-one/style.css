@@ -1,9 +1,10 @@
 body {
-    background-color:aqua; 
+    background-color:whitesmoke;
 }
 
 div.poster {
     width:100%;
+    overflow: hidden;
 }
 
 div.text {
