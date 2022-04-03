@@ -1,27 +1,41 @@
 body {
-    font-size: 50px;
-    background-color:wheat;
+    font-size: 25px;
+    background-color:lightgrey;
     font-family:'Times New Roman', Times, serif;
-    color:black;
-    text-align: left;
-    margin-left: 50px;
+    color:lightgrey;
+    text-align: right;
+    margin-right: 150px;
+    background-image:url(DSCF1387.JPG);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+a {
+    color:lightgrey;
+    text-decoration-line:none;
+    font-size:20px;
+}
+
+h1 {
+    font-style:italic;
+    font-size:25px;
 }
 
 a:hover {
-    transform:skew(15deg);
-    transition: 1s;
+    color:lightgrey;
+    font-style:italic;
 }
 
 div.Homepage {
-    font-size:80px;
+    font-size:200px;
 }
 
-div.dPub {
-    font-size: 25px;
-    color: red;
+div.container {
+    display:flex;
+    flex-wrap:wrap;
+    text-align: right;
 }
 
-div.BYOB {
-    font-size: 25px;
-    color:red;
-  }
+div.w1-5 {
+    width:20%;
+}
