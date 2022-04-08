@@ -1,0 +1,73 @@
+body {
+    background-color:white;
+}
+
+div.poster {
+    width: 100%;
+    min-height: 960px;
+    overflow: hidden;
+    background-image:url(blurcolours.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+div.text {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 0px 0px 10px red;
+}
+
+/* rule 1 */
+div.text.one {
+    font-size: 150px;
+    color:deeppink;
+    text-align:left;
+}
+
+div.text.two {
+    font-size: 120px;
+    color: red;
+    text-align:center;
+}
+
+div.text.three {
+    font-size: 90px;
+    color: blue;
+    text-align:right;
+}
+
+/* rule 2 */
+
+div.text.a {
+    transform: skew(30deg, -20deg);
+}
+
+div.text.b {
+    transform: skew(0deg, 20deg);
+}
+
+div.text.c {
+    transform: skew(-30deg, 0deg);
+}
+
+/* rule 3 */
+
+div.text.x {
+    color:transparent;
+}
+
+div.text.y {
+    font-family:'Times New Roman', Times, serif;
+}
+
+div.text.z {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div.small {
+    font-size:20px;
+    text-align:center;
+    color:aquamarine;
+    -webkit-text-stroke:1px lightblue;
+}
