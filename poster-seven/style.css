@@ -4,7 +4,7 @@ body {
 
 div.poster {
     width: 100%;
-    min-height: 960px;
+    min-height: 1080px;
     overflow: hidden;
     background-image:url(blurcolours.jpg);
     background-size:cover;
