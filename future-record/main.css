@@ -1,0 +1,151 @@
+body {
+    background-color:black;
+    font-family:Candara;
+    font-size:25px;
+    color:lightgray;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration:none;
+    color:lightgray;
+}
+
+
+a:hover {
+    border-bottom:2px solid lightgray;
+    text-shadow:3px 3px darkgray;
+}
+
+div.header {
+    display:flex;
+    flex-wrap:wrap;
+    position:fixed;
+    top:0px;
+    left:0px;
+    padding:15px;
+    width:100%;
+    border-bottom:2px solid lightgray;
+    background-color:black;
+    filter:opacity(50%);
+    text-shadow:2px 2px antiquewhite;
+}
+
+div.nav1 {
+    width:33.333%;
+    text-align:left;
+}
+
+div.theme {
+    width:33.333%;
+    text-align:center;
+}
+
+div.nav2 {
+    width:33.333%;
+    text-align:right;
+}
+
+div.masthead {
+    font-size:15vw;
+}
+
+div.title {
+    display:flex;
+    flex-wrap:wrap;
+    font-family:'Times New Roman', Times, serif;
+    font-size:8vw;
+    padding-bottom:10px;
+    margin-top:60px;
+    font-style:italic;
+    border-bottom:2px solid lightgray;
+    text-shadow:5px 5px darkgray;
+}
+
+div.title1 {
+    width:60%;
+    text-align:right;
+    margin-left:85px;
+    transform:rotateY(180deg);
+}
+
+div.title2 {
+    width:20%;
+    text-align:left;
+}
+
+div.title3 {
+    width:10%;
+    font-size:55px;
+    text-align:right;
+    font-style:italic;
+    text-shadow:3px 3px antiquewhite;
+}
+
+div.about {
+    display:flex;
+    flex-wrap:wrap;
+    padding:15px;
+    border-bottom:2px solid lightgray;
+}
+
+div.about1 {
+    width:80%;
+    margin-left:35px;
+}
+
+div.footnotes {
+    display:flex;
+    flex-wrap:wrap;
+    padding:15px;
+    border-bottom:2px solid lightgray;
+}
+
+div.keywords {
+    display:flex;
+    flex-wrap:wrap;
+    padding:15px;
+    width:15%;
+    margin-left:20px;
+}
+
+div.container {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.subtitle1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size:8vw;
+    font-style:italic;
+    text-align:center;
+    border-bottom:2px solid lightgray;
+    text-shadow:5px 5px darkgray;
+}
+
+div.subtitle2 {
+    font-family:'Times New Roman', Times, serif;
+    font-size:8vw;
+    font-style:italic;
+    text-align:center;
+    border-bottom:2px solid lightgray;
+    text-shadow:5px 5px darkgray;
+    transform:rotateY(180deg);
+}
+
+div.col1 {
+    overflow:scroll;
+    height:100vh;
+    padding:10px;
+    width:50%;
+}
+
+div.col2 {
+    overflow:scroll;
+    height:100vh;
+    padding:10px;
+    width:50%;
+}
