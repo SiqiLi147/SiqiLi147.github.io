@@ -1,10 +1,10 @@
 body {
+    flex-wrap:wrap;
     background-color:black;
 }
 
 div.poster {
     width:99%;
-    overflow: hidden;
     background-color:whitesmoke;
     background-image:url(red-dot.png);
     margin-left:10px;
