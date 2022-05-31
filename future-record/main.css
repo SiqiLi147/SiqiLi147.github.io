@@ -24,6 +24,7 @@ div.header {
     position:fixed;
     padding:15px;
     width:100%;
+    opacity:80%;
     border-bottom:4px solid lightgray;
     background-color:black;
     text-shadow:2px 2px antiquewhite;
